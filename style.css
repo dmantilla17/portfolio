@@ -16,7 +16,9 @@ body {
     display:flex
 }
 .logo {
-    float: left;
+    float: right;
+    padding: 0;
+    margin: auto;
 }
 nav {
     display: flex;
@@ -34,10 +36,46 @@ nav ul li {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-@media screen and (min-width:480px) {
+article .About-me {
+    font-family: monospace;
+    color: purple;
+    font-size: large;
+    size: 20px;
+    padding: 0;
+    margin: auto;
+}
+article .My-Work {
+    font-family: monospace;
+    color: purple;
+    font-size: large;
+    size:20px;
+    padding:0;
+    margin:auto
+}
+article .resume {
+    font-family: monospace;
+    color: purple;
+    font-size: large;
+    size:20px;
+    padding:0;
+    margin:auto
+}
+article .Contact-Me {
+    font-family: monospace;
+    color: purple;
+    font-size: large;
+    size:20px;
+    padding:0;
+    margin:auto
+}
+
+
+
+@media screen and (min-width:390px) {
     nav {
         width: 400px;
         flex-direction: row;
+        justify-content: row;
     }
 }
 @media screen  and (min-width: 992px) {
@@ -52,7 +90,7 @@ nav ul li {
     }
 }
     
-}
+
 
 
 
